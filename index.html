@@ -1,13 +1,34 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Football Card Game</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Egalcraft</title>
+  <meta name="description" content="Egalcraft — a browser game hub hosted with GitHub Pages.">
+  <style>
+    :root{font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#fff;background:#0b1020}
+    *{box-sizing:border-box} body{margin:0;min-height:100vh;background:radial-gradient(circle at 20% 10%,#263b76 0,#111936 35%,#080b16 75%);display:grid;place-items:center}
+    .wrap{width:min(920px,92vw);padding:48px 0}.card{border:1px solid #ffffff22;background:#10172bd9;backdrop-filter:blur(14px);border-radius:28px;padding:48px;box-shadow:0 24px 80px #0008}
+    .badge{display:inline-block;padding:7px 12px;border:1px solid #ffffff22;border-radius:999px;font-size:13px;color:#b9c8ff}
+    h1{font-size:clamp(48px,9vw,92px);line-height:.95;margin:20px 0 14px;letter-spacing:-.06em}
+    p{color:#b9c0d4;font-size:18px;line-height:1.6;max-width:650px}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    a{display:inline-block;text-decoration:none;padding:13px 18px;border-radius:12px;font-weight:700}
+    .play{background:#fff;color:#0b1020}.repo{border:1px solid #ffffff26;color:#fff}
+    .note{margin-top:32px;padding:18px;border-radius:16px;background:#ffffff08;border:1px solid #ffffff14;color:#9fa8bf;font-size:14px}
+    code{color:#d9e0ff}
+  </style>
 </head>
 <body>
-  <h1>Football Card Game Starter</h1>
-  <button onclick="afbdi(20)">Test Add Coins</button>
-  <p id="coins">0</p>
-  <script src="game.js"></script>
+  <main class="wrap"><section class="card">
+    <span class="badge">GITHUB PAGES • POK.MON</span>
+    <h1>Egalcraft</h1>
+    <p>A lightweight home page for your browser-game project. Put your web game files in <code>/game/</code> and the Play button will open <code>/game/index.html</code>.</p>
+    <div class="buttons">
+      <a class="play" href="./game/">Play Egalcraft</a>
+      <a class="repo" href="https://github.com/applefruitPunn/Pok.mon">View repository</a>
+    </div>
+    <div class="note">The repository currently contains the site shell only. Add the game client you are licensed and permitted to distribute to <code>game/</code>; GitHub Pages will publish it automatically.</div>
+  </section></main>
 </body>
 </html>
